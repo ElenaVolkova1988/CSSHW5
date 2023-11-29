@@ -1,0 +1,257 @@
+* {
+    margin: 0;
+}
+
+ul {
+    padding: 0;
+}
+
+a {
+    text-decoration-line: none;
+}
+
+@font-face{
+    font-family: "Gilroy-Semibold";
+    src: url("/homework_6/assets/fonts/gilroy-semibold.ttf");
+    font-style: normal;
+    font-weight: 400;
+}
+    
+@font-face{
+    font-family: "Gilroy-Bold";
+    src: url("/homework_6/assets/fonts/gilroy-bold.ttf");
+    font-style: normal;
+    font-weight: 400;
+}
+    
+@font-face{
+    font-family: "Gilroy-Medium";
+    src: url("/homework_6/assets/fonts/gilroy-medium.ttf");
+    font-style: normal;
+    font-weight: 400;
+}
+    
+@font-face{
+    font-family: "Gilroy-Regular";
+    src: url("/homework_6/assets/fonts/gilroy-regular.ttf");
+    font-style: normal;
+    font-weight: 400;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    align-items: center;
+}
+
+
+.img_head {
+    width: 137px;
+    height: 40px;
+}
+
+.menu {
+    margin-top: 51px;
+    display: flex;
+    list-style: none;
+    gap: 30px;
+
+}
+
+.menu_home {
+    color: #F25822;
+    font-family: Gilroy-SemiBold;
+    font-size: 14px;
+    line-height: normal
+
+}
+
+.menu_item {
+    color: #000;
+    font-family: Gilroy-Medium;
+    font-size: 14px;
+    line-height: normal;
+}
+
+
+.intro {
+    display: flex;
+    gap: 15px;
+    margin-top: 164px;
+    width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.intro_left {
+    width: 589px;
+}
+
+.intro_title {
+    color: #000;
+    font-family: Gilroy-Bold;
+    font-size: 60px;
+    line-height: normal;
+    width: 522px;
+    margin-bottom: 17px;
+
+
+}
+
+.intro_text {
+    color: #888;
+    font-family: Gilroy-Medium;
+    font-size: 20px;
+    line-height: normal;
+    width: 466px;
+    margin-bottom: 37px;
+}
+
+.intro_buttons_wrapper {
+    display: flex;
+    gap: 108px;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+
+.intro_button {
+    width: 140px;
+    height: 50px;
+    flex-shrink: 0;
+    border: 0;
+    border-radius: 50px;
+    background-color: #F25822;
+    box-shadow: 4px 4px 8px 0px rgba(242, 88, 34, 0.20);
+    color: #FFF;
+    font-family: Gilroy-Bold;
+    font-size: 15px;
+    line-height: normal;
+
+  
+}
+
+.intro_button_link {
+    color: #AAA;
+    font-family: Gilroy-Bold;
+    font-size: 15px;
+    line-height: normal;
+    
+}
+
+.intro_img {
+    width: 544px;
+    height: 375px;
+}
+
+.img_logos {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    margin-top: 97px;
+    justify-content: space-between;
+   
+}
+.card {
+    display: flex;
+    gap: 30px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    max-width: 1146px;
+    margin: 0 auto;
+}
+.item {
+    padding-top: 40px;
+    padding-bottom: 25px;
+    padding-left: 30px;
+    padding-right: 31px;
+    background: #FFF;
+}
+.card-icon{
+    margin-bottom: 25px;
+}
+.card-text-title{
+    color: #000;
+    font-family: Gilroy-Bold;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 17px;
+    
+}
+.card-text-paragraph{
+    color: #666;
+    font-family: Gilroy-Regular;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 150%;
+    margin-bottom: 25px;
+}
+.card-text-link{
+    color: #000;
+    font-family: Gilroy-Bold;
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.servis center{
+    display: flex;
+    gap: 30px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    max-width: 1146px;
+    margin: 0 auto;
+}
+   
+.servis-header{
+    padding-top: 40px;
+    text-align: center;
+}
+.servis-items{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30 px;
+    align-items: center;
+}
+.servis-items-card{
+    padding: 30px;
+    justify-self: center;
+    border-radius: 1.5px;
+    background-color: #FFF;
+    text-align: center;
+}
+
+.servis-items-wrapper{
+    padding-top: 25px;
+    padding-bottom: 39px;
+    padding-left: 30px;
+    padding-right: 31px;
+    background: #FFF;
+    text-align: center;
+}
+.servis-card-paragraph{
+    font-size: 15px;
+    line-height: 23px;
+    letter-spacing: 0em;
+    color: #AAAAAA;
+}
+.servis-button-icons{
+    display: flex;
+    border-radius: 50px;
+    width: 150px;
+    border: none;
+    background-color: #F25822;
+    color: #FFF;
+    font-size: 13px;  
+    height: 50px  
+}
+
+
+
